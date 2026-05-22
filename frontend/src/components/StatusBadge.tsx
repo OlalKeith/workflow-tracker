@@ -1,6 +1,5 @@
 import { Badge } from '@/components/ui/badge'
-import { ApplicationStatus } from '../types/application'
-
+import type { ApplicationStatus } from '../types/application'
 const statusStyles: Record<ApplicationStatus, string> = {
   Draft: 'bg-slate-100 text-slate-700',
   Submitted: 'bg-blue-100 text-blue-700',

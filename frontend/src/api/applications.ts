@@ -1,6 +1,6 @@
 // API functions for applications
 import axios from 'axios'
-import { Application } from '../types/application'
+import type { Application } from '../types/application'
 
 const api = axios.create({
   baseURL: 'http://127.0.0.1:8000/api',
